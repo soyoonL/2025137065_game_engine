@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2ed4742dcf33292458d3a8afeb74df36
+guid: 02a09e0c7b9eaab4a909f7fd4d45e0e7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,22 +97,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy_book_2_0
+      name: PlayerJumpImage_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 75
-        width: 414
-        height: 260
+        x: 171
+        y: 90
+        width: 741
+        height: 919
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 16}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db38260b7fa390b4c824ec2b53f8b4ba
-      internalID: -1392756505
+      spriteID: 06b14a0d728b6d943852373730de4ba1
+      internalID: 1236467259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerJumpImage_1
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 930
+        width: 37
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964a4af5a38f70d46a1edc289a1b5e9c
+      internalID: -142799512
       vertices: []
       indices: 
       edges: []
@@ -128,7 +149,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Enemy_book_2_0: -1392756505
+      PlayerJumpImage_0: 1236467259
+      PlayerJumpImage_1: -142799512
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

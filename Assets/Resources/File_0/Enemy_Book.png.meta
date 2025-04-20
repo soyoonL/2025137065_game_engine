@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4c844d96d758d5d44b21d73b1a65da90
+guid: f82759594df95c4499ec1dec54e2f8d6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,22 +97,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy_book_3_0
+      name: "ChatGPT Image 2025\uB144 4\uC6D4 19\uC77C \uC624\uC804 04_17_40 (1)_0"
       rect:
         serializedVersion: 2
-        x: 26
-        y: 46
-        width: 373
-        height: 302
+        x: 20
+        y: 300
+        width: 435.33334
+        height: 424
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 6, y: 0, z: 0, w: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b371d7095b9718f4bb6d170ed3325633
-      internalID: 1701386008
+      spriteID: 3eeb194d63db5ff4585a7095a297916e
+      internalID: -1705171918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ChatGPT Image 2025\uB144 4\uC6D4 19\uC77C \uC624\uC804 04_17_40 (1)_1"
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 300
+        width: 435.33334
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7922138e597baf84aa543df5052d8803
+      internalID: 837343436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ChatGPT Image 2025\uB144 4\uC6D4 19\uC77C \uC624\uC804 04_17_40 (1)_2"
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 300
+        width: 435.33334
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa1da71e56979c49a22cb9fa100b274
+      internalID: 2074203480
       vertices: []
       indices: 
       edges: []
@@ -128,7 +170,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Enemy_book_3_0: 1701386008
+      "ChatGPT Image 2025\uB144 4\uC6D4 19\uC77C \uC624\uC804 04_17_40 (1)_0": -1705171918
+      "ChatGPT Image 2025\uB144 4\uC6D4 19\uC77C \uC624\uC804 04_17_40 (1)_1": 837343436
+      "ChatGPT Image 2025\uB144 4\uC6D4 19\uC77C \uC624\uC804 04_17_40 (1)_2": 2074203480
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
