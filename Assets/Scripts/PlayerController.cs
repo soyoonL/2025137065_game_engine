@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerController : MonoBehaviour
 {
@@ -13,11 +14,14 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator pAni;
     private bool isGrounded;
+    float score;
     // Start is called before the first frame update
     public void Awake()
     {
         rb= GetComponent<Rigidbody2D>();
         pAni= GetComponent<Animator>();
+
+        score = 1000f;
     }
 
     // Update is called once per frame
@@ -42,6 +46,8 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(Vector2.up*jumpForce, ForceMode2D.Impulse);
             pAni.SetTrigger("JumpAction");
         }
+
+        score -= Time.deltaTime;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -51,6 +57,8 @@ public class PlayerController : MonoBehaviour
         }
         if (collision.CompareTag("Finish"))
         {
+            //HighScore.TrySet(SceneManager.GetActivescene().buildIndex,(int)score);
+            StageResultSaver.SaveStage(SceneManager.GetActiveScene().buildIndex, (int)score);
             collision.GetComponent<LevelObject>().MoveToNextLevel();
         }
         if (collision.CompareTag("Enemy"))
@@ -59,5 +67,5 @@ public class PlayerController : MonoBehaviour
         }
     }
    
-
+    
 }
